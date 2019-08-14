@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.domain.Item;
 
-@SpringBootApplication
 @RestController
 @RequestMapping("api/items")
 public class RestApiController {
