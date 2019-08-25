@@ -22,6 +22,11 @@ apply plugin: 'io.spring.dependency-management'
 apply plugin: 'com.palantir.docker'
 // end::plugin[]
 
+jar {
+        enabled = true
+        archiveName 'restApi.jar'
+    }
+    
 // This is used as the docker image prefix (org)
 group = 'springio'
 
